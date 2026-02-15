@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recorder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="controls">
+      <button id="startBtn">Start Recording</button>
+      <button id="stopBtn" disabled>Stop</button>
+      <button id="downloadVideoBtn" disabled>Download Video</button>
+      <button id="downloadTextBtn" disabled>Download Captions</button>
+      <button id="readBtn" disabled>Read Captions</button>
+    </div>
+
+    <video id="preview" autoplay muted playsinline></video>
+
+    <div class="caption-box">
+      <h3>Live Captions</h3>
+      <div id="captions" contenteditable="true"></div>
+    </div>
+  </div>
+
+  <script src="recorder.js"></script>
+  <script src="captions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

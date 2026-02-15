@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+video {
+  width: 100%;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.caption-box {
+  min-height: 80px;
+  overflow-y: auto;
+}
+
+#captions {
+  outline: none;
+  line-height: 1.6;
+}
