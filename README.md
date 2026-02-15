@@ -1,0 +1,3 @@
+- records browser screen
+- transcripts audio
+- tts available (browser API)
